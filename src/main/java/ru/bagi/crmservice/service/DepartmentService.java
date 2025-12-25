@@ -32,10 +32,4 @@ public class DepartmentService {
         return departmentRepository.save(department);
     }
 
-    /**
-     * Удаляет текущий отдел
-     */
-    public void deleteDepartment(Long id) {
-        departmentRepository.deleteById(id);
-    }
 }

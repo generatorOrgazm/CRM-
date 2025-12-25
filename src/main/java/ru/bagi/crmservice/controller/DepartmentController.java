@@ -36,11 +36,4 @@ public class DepartmentController {
         return departmentService.saveDepartment(department);
     }
 
-    /**
-     * Удаление отдела по идентификатору
-     */
-    @DeleteMapping("/{id}")
-    public void delete(@PathVariable Long id) {
-        departmentService.deleteDepartment(id);
-    }
 }
